@@ -1,0 +1,322 @@
+.backimg{
+    background: url(images/Rectangle-11.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 0rem 6.25rem 6.25rem 6.25rem;
+    color: #FFF;
+}
+.navbar-brand,.font-45{
+font-family: IBM Plex Sans;
+font-size: 2.813rem;
+font-weight: 700;
+line-height: 3.688rem;
+}
+.navbar-brand{
+    color: var(--White, #FFF);
+}
+.navbar-brand span{
+    color: var(--Tertiary, #CECECE);
+}
+.nav-item .nav-link{
+color:  #FFFFFFBF;
+text-transform: uppercase;
+border-bottom:0.063rem solid transparent;
+}
+.navbar-buttons,.euro-buttons,.euro-buttons2{
+padding:  0.438rem 1.563rem 0.438rem 1.563rem;
+color: white;
+}
+.navbar-buttons,.euro-buttons,.euro-buttons2,.nav-item .nav-link,.font14{
+font-family: IBM Plex Sans;
+font-size: 0.875rem;
+font-weight: 600;
+line-height: 1.5rem;
+}
+.font14{
+    color: #CECECE;
+}
+.rpadding{
+    --bs-btn-padding-x: 0rem;
+    --bs-btn-padding-y: 0rem;
+}
+.navbar-buttons:hover,.euro-buttons{
+    background-color: #272635;
+    color: white;
+}
+.nav-item .nav-link:hover{
+    border-bottom:0.063rem solid  #FFFFFF;
+    color: #FFFFFF;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+ --bs-gutter-x: 0rem; 
+}
+#navbarsExample05{
+    margin-left: 12rem;
+}
+.euro-heading{
+font-family: IBM Plex Sans;
+font-size: 3.75rem;
+font-weight: 700;
+line-height: 4.875rem;
+}
+.euro-section{
+  padding:1.875rem 0rem 1.875rem 0rem;
+  margin-top: 5rem;
+}
+.mt1{
+    margin-top: 1.5rem;
+}
+.mt0-9{
+    margin-top: 0.9rem;
+}
+.euro-buttons,.euro-buttons2{
+    border-radius: 0rem;
+    margin-top: 1.5rem;
+}
+.euro-buttons2{
+    color: #272635;
+    background-color: #FFF;
+    margin-left:  0.625rem;
+}
+.font17{
+font-family: IBM Plex Sans;
+font-size: 1.063rem;
+font-weight: 400;
+line-height: 1.625rem;
+}
+#gray{
+   color: #6E6E6E;
+}
+.padding100,.backpink{
+    padding: 6.25rem;
+}
+.backpink{
+    background-color: rgb(241, 241, 241);
+}
+.font20{
+font-family: IBM Plex Sans;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 1.813rem;
+}
+.mleft5{
+    margin-left: 2rem;
+}
+.mt0-5{
+    margin-top: 0.5rem;
+}
+.mleft1{
+    margin-left: 1rem;
+}
+.p-absolute{
+    position: absolute;
+    padding: 2.188rem;
+    background-color: #FFF;
+    margin-top: 3.3rem;
+}
+.video{
+    cursor: pointer;
+}
+@media screen and (min-width:62rem) and (max-width:75rem) {
+    .backimg{
+        padding: 0rem 4.375rem 4.375rem 4.375rem;
+    }
+    .padding100,.backpink{
+        padding: 4.375rem;
+    }
+    .navbar-buttons{
+        padding:  0.438rem 1.25rem 0.438rem 1.25rem;
+     }
+     .euro-section{
+        margin-top: 2rem;
+    }
+    .euro-heading{
+        font-size: 3.125rem;
+        font-weight: 600;
+        line-height: 4.25rem;
+    }
+    .img-1{
+           height: 31.25rem; 
+    }
+    .font-45{
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 3.3rem;
+    }
+    .p-absolute{
+        padding: 1.25rem;
+        margin-top: 3rem;
+    } 
+    .img-3{
+        height: 15rem;
+    }
+    .img-4{
+        height: 37.5rem;
+    }
+}
+@media screen and (min-width:75rem) and (max-width:87.5rem) {
+    #navbarsExample05{
+        margin-left: 5rem;
+    }
+    .p-absolute{
+        padding: 1.563rem;
+    }
+    .img-4{
+        height: 40.625rem;
+    } 
+    .img-1{
+        height: 37.5rem; 
+    }
+    .img-3{
+        height: 16.25rem;
+    }
+}
+@media screen and (min-width:12.5rem) and (max-width:62rem){
+    .backimg{
+        padding: 0rem 0.625rem 1.25rem 0.625rem;
+    }
+    .navbar-toggler {
+        padding:0rem 0rem;
+        background-color: #FFF;
+        color: #FFF;
+        margin-left: 0.5rem;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+    #navbarsExample05{
+        background-color: #272635;
+        text-align: center;
+        padding: 1.5rem 0rem;
+        position: absolute;
+        width: 100%;
+    }
+    .nav-item .nav-link{
+        padding: 1.5rem 0rem;
+    }
+    .t-center{
+        text-align: center;
+    }
+    .mt0-9,.addmt-4{
+        margin-top: 0.4rem;
+    }
+}
+@media screen and (min-width:48rem) and (max-width:62rem) {
+    .euro-section{
+        margin-top: 2rem;
+    }
+    .euro-heading{
+        font-size: 2.5rem;
+        font-weight: 550;
+        line-height: 3.75rem;
+    }
+    .img-1{
+           height: 25rem;
+           margin-top: 1rem;
+    }
+    .font-45{
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 2.5rem;
+    }
+    .font20{
+        font-size: 1.125rem;
+        font-weight: 600;
+        line-height: 1.613rem;
+    }
+    .p-absolute{
+        padding: 1.25rem;
+    }
+    .img-3{
+        height: 14.375rem;
+    }
+    .img-4{
+        height: 28.125rem;
+        margin-top: 1rem;
+    }
+    .video{
+        height: 12.5rem;
+    }
+    .padding100,.backpink{
+        padding: 2rem 0.625rem;
+    }
+}
+@media screen and (min-width:12rem) and (max-width:48rem) {
+    .navbar-brand{
+        font-size: 1.75rem;
+        font-weight: 600;
+        line-height: 2.688rem;
+        margin-right: 0rem;
+    }
+    .navbar-buttons{
+        padding:  0.125rem 0.313rem 0.125rem 0.313rem;
+        margin-left: 0.5rem;
+    }
+    .euro-heading,.font-45{
+        font-size: 1.75rem;
+        font-weight: 550;
+        line-height: 2.188rem;
+    }
+    .font-45{
+        font-size: 1.5rem;
+        font-weight: 550;
+        line-height: 2rem;
+    }
+    .euro-section{
+        margin-top: 0rem;
+        padding: 0.625rem 0rem 0.625rem 0rem;
+    }
+    .mt1{
+        margin-top: 1rem;
+    }
+    .backimg{
+        background-size: 100% 150%;
+    }
+    .font17{
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    .font20{
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.513rem;
+    }
+    .euro-buttons,.euro-buttons2{
+        padding:  0.25rem 0.938rem 0.25rem 0.938rem;
+        font-size: 0.813rem;
+        margin-top: 1rem;
+    }
+    .img-1{
+           height: 18.75rem;
+           margin-top: 1rem;
+    } 
+    .p-absolute{
+        padding: 0.625rem;
+        margin-top: 3rem;
+    }
+    .img-3{
+        height: 12.5rem;
+    }
+    .img-4{
+        height:21.875rem;
+        margin-top: 1rem;
+    }
+    .video{
+        height: 9.375rem;
+    }
+    .padding100,.backpink{
+        padding: 1.5rem 0.625rem;
+    }      
+}
+@media screen and (min-width:12.5rem) and (max-width:75rem) {
+    #navbarsExample05{
+        margin-left: 0rem;
+    }
+}
+@media screen and (min-width:48rem) and (max-width:75rem) {
+    .navbar-brand{
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 3.063rem;
+    }
+}

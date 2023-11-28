@@ -5,22 +5,24 @@
     padding: 0rem 6.25rem 6.25rem 6.25rem;
     color: #FFF;
 }
-.navbar-brand,.font-45{
+.navbar-brand,.font-45,.font-45-white{
 font-family: IBM Plex Sans;
 font-size: 2.813rem;
 font-weight: 700;
 line-height: 3.688rem;
 }
-.navbar-brand{
+.navbar-brand,.font-45-white{
     color: var(--White, #FFF);
 }
 .navbar-brand span{
     color: var(--Tertiary, #CECECE);
 }
 .nav-item .nav-link{
-color:  #FFFFFFBF;
 text-transform: uppercase;
 border-bottom:0.063rem solid transparent;
+}
+.nav-item .nav-link ,.font-17-gray{
+    color:  #FFFFFFBF;
 }
 .navbar-buttons,.euro-buttons,.euro-buttons2{
 padding:  0.438rem 1.563rem 0.438rem 1.563rem;
@@ -78,13 +80,13 @@ line-height: 4.875rem;
     background-color: #FFF;
     margin-left:  0.625rem;
 }
-.font17{
+.font17,.font-17-gray,.font-17-lightgray{
 font-family: IBM Plex Sans;
 font-size: 1.063rem;
 font-weight: 400;
 line-height: 1.625rem;
 }
-#gray{
+#gray,.font-17-lightgray{
    color: #6E6E6E;
 }
 .padding100,.backpink{
@@ -114,8 +116,62 @@ line-height: 1.813rem;
     background-color: #FFF;
     margin-top: 3.3rem;
 }
+.p-cards{
+    padding: 1.5rem;
+    background-color: #FFF;
+    margin-top: 4.7rem; 
+}
 .video{
     cursor: pointer;
+}
+.backblack{
+   background:  #272635;
+}
+.certi-img{
+    height: 2.188rem;
+}
+.credit-img{
+    height: 1.875rem;
+}
+.cam-img{
+    height:2.063rem;
+}
+.result-boxes:hover{
+    background-color: #272635;
+    color:#FFFFFF;
+}
+.result-boxes:hover .font-17-lightgray{
+    color: #FFFFFFBF;
+}
+.result-boxes{
+    padding:1.25rem;
+    cursor: pointer;
+}
+.img-5{
+    height: 43.3rem;
+}
+.gallery-buttons{
+  padding:  0.625rem 2.5rem;
+  color:#6E6E6E;
+text-align: center;
+background-color: #FFF;
+border-radius: 0rem;
+}
+.gallery-buttons:hover{
+    background-color: #272635;
+    color: white;
+}
+.gallery-img2{
+width: 20.375rem;
+}
+.gallery-img3{
+    width: 33rem;
+}
+.gallery-img4{
+    width: 27.031rem;
+}
+.gallery-img2,.gallery-img3,.gallery-img4{
+    height: 15.625rem;
 }
 @media screen and (min-width:62rem) and (max-width:75rem) {
     .backimg{
@@ -138,7 +194,7 @@ line-height: 1.813rem;
     .img-1{
            height: 31.25rem; 
     }
-    .font-45{
+    .font-45,.font-45-white{
         font-size: 2.5rem;
         font-weight: 600;
         line-height: 3.3rem;
@@ -152,6 +208,21 @@ line-height: 1.813rem;
     }
     .img-4{
         height: 37.5rem;
+    }
+    .img-5{
+        height: 35.8rem;
+    }
+    .gallery-img2{
+        width: 13.438rem;
+    }
+    .gallery-img3{
+        width:25.938rem;
+    }
+    .gallery-img4{
+        width: 19.688rem;
+    }
+    .gallery-img2,.gallery-img3,.gallery-img4{
+        height: 13.75rem;
     }
 }
 @media screen and (min-width:75rem) and (max-width:87.5rem) {
@@ -169,6 +240,24 @@ line-height: 1.813rem;
     }
     .img-3{
         height: 16.25rem;
+    }
+    .result-boxes{
+        padding:0.938rem;
+    }
+    .img-5{
+        height: 38.5rem;
+    }
+    .gallery-buttons{
+        padding:  0.625rem 2.188rem;
+    }
+    .gallery-img2{
+        width: 16.875rem;
+    }
+    .gallery-img3{
+        width: 29.375rem;
+    }
+    .gallery-img4{
+        width: 23.125rem;
     }
 }
 @media screen and (min-width:12.5rem) and (max-width:62rem){
@@ -200,6 +289,8 @@ line-height: 1.813rem;
     .mt0-9,.addmt-4{
         margin-top: 0.4rem;
     }
+    
+    
 }
 @media screen and (min-width:48rem) and (max-width:62rem) {
     .euro-section{
@@ -214,7 +305,7 @@ line-height: 1.813rem;
            height: 25rem;
            margin-top: 1rem;
     }
-    .font-45{
+    .font-45,.font-45-white{
         font-size: 2rem;
         font-weight: 600;
         line-height: 2.5rem;
@@ -224,7 +315,7 @@ line-height: 1.813rem;
         font-weight: 600;
         line-height: 1.613rem;
     }
-    .p-absolute{
+    .p-absolute,.p-cards{
         padding: 1.25rem;
     }
     .img-3{
@@ -234,11 +325,24 @@ line-height: 1.813rem;
         height: 28.125rem;
         margin-top: 1rem;
     }
-    .video{
-        height: 12.5rem;
+    .img-5{
+        margin-top: 1rem;
+        height: 28.5rem;
     }
     .padding100,.backpink{
         padding: 2rem 0.625rem;
+    }
+    .gallery-img2{
+        width:11.875rem;
+    }
+    .gallery-img3{
+        width: 24.375rem;
+    }
+    .gallery-img4{
+        width: 18.125rem;
+    }
+    .gallery-img2,.gallery-img3,.gallery-img4,.video{
+        height: 12.5rem;
     }
 }
 @media screen and (min-width:12rem) and (max-width:48rem) {
@@ -252,12 +356,12 @@ line-height: 1.813rem;
         padding:  0.125rem 0.313rem 0.125rem 0.313rem;
         margin-left: 0.5rem;
     }
-    .euro-heading,.font-45{
+    .euro-heading{
         font-size: 1.75rem;
         font-weight: 550;
         line-height: 2.188rem;
     }
-    .font-45{
+    .font-45,.font-45-white{
         font-size: 1.5rem;
         font-weight: 550;
         line-height: 2rem;
@@ -266,13 +370,13 @@ line-height: 1.813rem;
         margin-top: 0rem;
         padding: 0.625rem 0rem 0.625rem 0rem;
     }
-    .mt1{
+    .mt1,.gallery-img2,.gallery-img3,.gallery-img4{
         margin-top: 1rem;
     }
     .backimg{
         background-size: 100% 150%;
     }
-    .font17{
+    .font17,.font-17-gray,.font-17-lightgray{
         font-size: 0.875rem;
         line-height: 1.25rem;
     }
@@ -294,6 +398,10 @@ line-height: 1.813rem;
         padding: 0.625rem;
         margin-top: 3rem;
     }
+    .p-cards{
+        padding: 0.625rem;
+        margin-top: 1rem; 
+    }
     .img-3{
         height: 12.5rem;
     }
@@ -306,7 +414,40 @@ line-height: 1.813rem;
     }
     .padding100,.backpink{
         padding: 1.5rem 0.625rem;
-    }      
+    }
+    .img-center{
+        text-align: center;
+    }
+    .certi-img{
+        height: 1.875rem;
+    }
+    .credit-img{
+        height: 1.563rem;
+    }
+    .cam-img{
+        height: 1.75rem;
+    }
+    .img-5{
+        height: 21.5rem;
+        margin-top: 1rem;
+    }
+    .gallery-buttons{
+        padding:  0.313rem 1.25rem;
+        margin-top: 0.5rem;
+    }
+    .gallery-img2{
+        width:16.875rem;
+    }
+    .gallery-img3{
+        width: 23.75rem;
+        object-fit: cover;
+    }
+    .gallery-img4{
+        width: 20.625rem;
+    }
+    .gallery-img2,.gallery-img3,.gallery-img4{
+        height: 11.875rem;
+    }     
 }
 @media screen and (min-width:12.5rem) and (max-width:75rem) {
     #navbarsExample05{
@@ -319,4 +460,21 @@ line-height: 1.813rem;
         font-weight: 600;
         line-height: 3.063rem;
     }
+    .gallery-buttons{
+        padding:  0.625rem 2.188rem;
+    }
+}
+@media screen and (min-width:48rem) {
+    .pr{
+        position: relative;
+    }
+    .pa{
+        position: absolute;
+    }
+}
+@media screen and (min-width:12.5rem) and (max-width:36rem) {
+    .result-boxes{
+        margin-top: 0rem;
+        text-align: center;
+    } 
 }

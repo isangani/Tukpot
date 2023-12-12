@@ -15,30 +15,30 @@
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Tuk<span>pot</span></a>
-            <div class="collapse navbar-collapse order-lg-1 order-3 top-100" id="navbarsExample05">
+            <div class="collapse navbar-collapse order-lg-1 order-3" id="navbarsExample05">
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#">About Us</a>
+                  <a class="nav-link " href="#aboutus" >About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Our Services</a>
+                  <a class="nav-link" href="#services">Our Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">FAQs</a>
+                  <a class="nav-link" href="#faq">FAQs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Reviews</a>
+                  <a class="nav-link" href="#review">Reviews</a>
                 </li>
               </ul>
             </div>
             <div class="d-flex order-lg-2 order-1 align-items-center">
               <button type="button" class="btn navbar-buttons">Get a Quote</button>
               <button type="button" class="btn navbar-buttons">
-                <img src="images/long-arrow-right.png" class="img-fluid"><span class="d-md-inline d-none"> +62 123 456
-                  789</span>
+                <img src="images/long-arrow-right.png" class="img-fluid">
+                  <span class="d-md-inline d-none"> +62 123 456 789</span>
               </button>
               <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
@@ -66,31 +66,31 @@
     </div>
     </section>
     <section>
-      <div class="container-fluid padding100">
+      <div class="container-fluid padding100" id="aboutus">
         <div class="row justify-content-lg-between justify-content-center align-items-center">
-          <div class="col-lg-6 t-center order-lg-1 order-2 ">
+          <div class="col-lg-6 col-md-6 order-md-1 order-2 img-center ">
             <img src="images/Left.png" class="img-fluid img-1">
           </div>
-          <div class="col-lg-6 order-lg-2 order-1">
-            <div class="font14 t-center">About Us</div>
+          <div class="col-lg-6 col-md-6 order-md-2 order-1">
+            <div class="font14 img-center">About Us</div>
             <div class="font-45 mt0-9">We're Delighted To Showcase Our Professional Photography Services</div>
             <div class="font17 mt0-9" id="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. </div>
-            <div class="d-flex mt1 justify-content-center justify-content-lg-start">
-              <div><img src="images/camera.png" class="img-fluid"></div>
-              <div class="mleft5">
+            <div class="d-flex mt1-5 justify-content-center justify-content-md-start align-items-start">
+              <div><img src="images/camera.png" class="img-fluid camera"></div>
+              <div>
                 <div class="font20">High Class Tools Used</div>
                 <div class="font17" id="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
               </div>
             </div>
-            <div class="d-flex mt1 justify-content-center justify-content-lg-start">
-              <div><img src="images/users.png" class="img-fluid"></div>
-              <div class="mleft5">
+            <div class="d-flex mt1-5 justify-content-center justify-content-md-start">
+              <div><img src="images/users.png" class="img-fluid users"></div>
+              <div>
                 <div class="font20">Best Team Work</div>
                 <div class="font17" id="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
               </div>
             </div>
-            <div class="t-center">
+            <div class="img-center">
               <button type="button" class="btn euro-buttons">
                 LEARN MORE &nbsp;<img src="images/long-arrow-right (2).png" class="img-fluid">
               </button>
@@ -100,7 +100,7 @@
       </div>
     </section>
     <section>
-      <div class="container-fluid backpink">
+      <div class="container-fluid backpink" id="services">
         <div class="row justify-content-lg-between justify-content-center align-items-center">
           <div class="col-lg-6">
             <div class="font14 t-center">Our Services</div>
@@ -223,7 +223,7 @@
                     </div>
                     <div class="col-9 col-md-9 col-sm-10">
                       <div>
-                        <div class="font20">Completely Training</div>
+                        <div class="font20">Flexible Price</div>
                         <div class="font17" id="gray">Lorem ipsum dolor sit amet consectetur</div>
                       </div>
                     </div>
@@ -354,7 +354,7 @@
       </div>
     </section>
     <section>
-      <div class="container-fluid feedback-backimg padding100">
+      <div class="container-fluid feedback-backimg padding100" id="review">
         <div class="row justify-content-center">
           <div class="col-lg-7 text-center">
             <div class="font14">Testimonials</div>
@@ -430,7 +430,7 @@
       </div>
     </section>
     <section>
-      <div class="container-fluid backpink">
+      <div class="container-fluid backpink" id="faq">
         <div class="row justify-content-between">
           <div class="col-lg-6 t-center">
             <div class="font14">Question Answer</div>
@@ -564,7 +564,18 @@
         </div>
     </section>
   </div>
+  <script src="bootstrap/jquery.js"></script>
   <script src="bootstrap/popper.min.js"></script>
   <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".nav-link").click(function(){
+        $("#navbarsExample05").hide();
+      });
+      $(".navbar-toggler").click(function(){
+        $("#navbarsExample05").show ();
+      })
+    })
+  </script>
 </body>
 </html>

@@ -411,7 +411,8 @@ margin-top: 3rem;
         padding:0rem 0rem;
         background-color: #FFF;
         color: #FFF;
-        margin-left: 0.5rem;
+        margin-left: 0rem;
+        font-size: 1.1rem;
     }
     .navbar-toggler:focus {
         box-shadow: 0 0 0 0;
@@ -432,11 +433,7 @@ margin-top: 3rem;
     .mt0-9,.addmt-4{
         margin-top: 0.4rem;
     }
-    .services{
-        margin-top: 1.5rem;
-        padding: 1rem;
-    }
-    .mt2-5,.addmt0-7,.right-reserved{
+    .addmt0-7,.right-reserved{
         margin-top: 0.7rem;
     }
     .addmt1{
@@ -444,6 +441,9 @@ margin-top: 3rem;
     }
     .mr-t0-5{
         margin-top: 0.2rem;
+    }
+    .accordion-button{
+        padding: 0.7rem var(--bs-accordion-btn-padding-x);
     }
 }
 @media screen and (min-width:48rem) and (max-width:62rem) {
@@ -457,7 +457,6 @@ margin-top: 3rem;
     }
     .img-1{
            height: 25rem;
-           margin-top: 1rem;
     }
     .font-45,.font-45-white{
         font-size: 1.8rem;
@@ -476,12 +475,11 @@ margin-top: 3rem;
         height: 14.375rem;
     }
     .img-4{
-        height: 28.125rem;
-        margin-top: 1rem;
+        height: 27.1rem;
+        width: 27rem;
     }
     .img-5{
-        margin-top: 1rem;
-        height: 22.5rem;
+        height: 23.5rem;
         width: 26rem;
     }
     .padding100,.backpink,.contact-us{
@@ -509,10 +507,6 @@ margin-top: 3rem;
     .gallery-img2,.gallery-img3,.gallery-img4,.video{
         height: 12.5rem;
     }
-    .img-6{
-        height: 13rem;
-        margin-top: 0.5rem;
-    }
     .font35-gray{
         font-size: 1.625rem;
         line-height: 1.8rem;
@@ -522,12 +516,9 @@ margin-top: 3rem;
         top: -1.5em;
     }
     .img-7{
-        height: 14.5rem;
+        height: 14.4rem;
         width: 26rem;
         margin-top: -0.3rem;
-    }
-    .accordion-button{
-        padding: 0.8rem var(--bs-accordion-btn-padding-x);
     }
     .mrleft1{
         margin-left: 0.8rem;
@@ -547,6 +538,15 @@ margin-top: 3rem;
     }
     .mt1-5{
         margin-top: 1rem;
+    }
+    .font-17-lightgray{
+        line-height: 1.4rem;
+    }
+    .services{
+        padding: 1rem;
+    }
+    .mt2-5{
+        margin-top: 1.5rem;
     }
 }
 @media screen and (min-width:12rem) and (max-width:48rem) {
@@ -614,7 +614,7 @@ margin-top: 3rem;
         margin-top: 1rem; 
     }
     .img-3{
-        height: 12.5rem;
+        height: 11.5rem;
     }
     .img-4{
         height:21.875rem;
@@ -677,7 +677,11 @@ margin-top: 3rem;
         margin-top: 0.5rem;
     } 
     .services{
+        margin-top: 1.2rem;
         padding: 1rem;
+    }
+    .mt2-5{
+        margin-top: 0rem;
     }
     .mr-top0-5{
         margin-top: 0.2rem;
@@ -702,9 +706,6 @@ margin-top: 3rem;
     .plus{
         font-size:.490em;
         top: -1.2em;
-    }
-    .accordion-button{
-         padding: 0.7rem var(--bs-accordion-btn-padding-x);
     }
     .img-7{
         height: 12rem;
@@ -739,7 +740,7 @@ margin-top: 3rem;
         width: 30px;
         margin-right: 1rem;
     }
-    .mt1-5{
+    .mt1-5,.addmt-5{
         margin-top: 0.5rem;
     }
 }
@@ -764,6 +765,9 @@ margin-top: 3rem;
         font-size: 1.375rem;
         font-weight: 550;
         line-height: 1.875rem;
+    }
+    .result-boxes{
+        padding:0.8rem;
     }
 }
 @media screen and (min-width:48rem) {

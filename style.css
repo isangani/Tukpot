@@ -1,5 +1,5 @@
 .backimg{
-    background:linear-gradient( #272635CC, #00000033), url(images/Rectangle-11.png);
+    background:linear-gradient(135deg, #272635CC, #00000033), url(images/Rectangle-11.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     padding: 0rem 6.25rem 6.25rem 6.25rem;
@@ -133,7 +133,7 @@ line-height: 1.813rem;
     background-color: #FFF;
     margin-top: 4.7rem; 
 }
-.video,.services:hover{
+.video,.services:hover,.pointer{
     cursor: pointer;
 }
 .backblack,.footer{
@@ -187,7 +187,7 @@ body,html{
     width: 100%;
 }
 .contact-us{
-        background:linear-gradient( #272635, #00000033), url(images/Rectangle-11.png);
+        background:linear-gradient(rgba(39, 38, 53,0.5),rgba(39, 38, 53,0.5)), url(images/Rectangle-11.png);
         background-repeat: no-repeat;
         background-size: 100% auto;
         color: #FFF;
@@ -287,10 +287,13 @@ margin-top: 3rem;
     --bs-nav-tabs-link-active-bg:#272635 ;
     --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) var(--bs-body-bg);
     border-bottom: 0rem;
-    --bs-nav-tabs-border-radius: var(--bs-border-radius);
+    --bs-nav-tabs-border-radius: /*var(--bs-border-radius)*/ 0rem;
 }
 .nav {  
     --bs-nav-link-hover-color:#6E6E6E;
+}
+.video{
+    height: 19rem;
 }
 @media screen and (min-width:62rem) and (max-width:75rem) {
     .backimg{
@@ -371,6 +374,9 @@ margin-top: 3rem;
     }
     .gallery-buttons{
         padding:  0.625rem 1.876rem;
+    }
+    .video{
+        height: 16.9rem;
     }
 }
 @media screen and (min-width:75rem) and (max-width:87.5rem) {
@@ -651,7 +657,7 @@ margin-top: 3rem;
         margin-top: 1rem;
     }
     .video{
-        height: 9.375rem;
+        height:10rem;
     }
     .padding100,.backpink,.contact-us{
         padding: 1.3rem 0.625rem;
@@ -683,23 +689,23 @@ margin-top: 3rem;
         width: 23rem;
     }
     .gallery-buttons{
-        padding:  0.363rem 1.35rem;
+        padding:  0.47rem 1.35rem;
         margin-top: 0.5rem;
-        line-height: 1.2rem;
+        line-height: 1rem;
         font-size: 0.813rem;
     }
     .gallery-img2{
-        width:16.875rem;
+        width:16rem;
     }
     .gallery-img3{
-        width: 23.75rem;
+        width: 23rem;
         object-fit: cover;
     }
     .gallery-img4{
-        width: 20.625rem;
+        width: 20rem;
     }
     .gallery-img2,.gallery-img3,.gallery-img4{
-        height: 11.875rem;
+        height: 11rem;
     }
     .result-boxes,.result-boxes:hover{
         padding: 0.5rem 0.625rem;

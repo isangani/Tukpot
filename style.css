@@ -1,8 +1,8 @@
 .backimg{
-    background:linear-gradient(135deg, #272635CC, #00000033), url(images/Rectangle-11.png);
+    background:linear-gradient(90deg,rgba(39, 38, 53,0.8),rgba(0, 0, 0,0.2)),url(images/Rectangle-11.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    padding: 0rem 6.25rem 6.25rem 6.25rem;
+    padding: 0rem 0rem 5.25rem 0rem;
 }
 .navbar-brand,.font-45,.font-45-white{
 font-family: IBM Plex Sans;
@@ -49,9 +49,6 @@ text-transform: uppercase;
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
  --bs-gutter-x: 0rem; 
 }
-#navbarsExample05{
-    margin-left: 12rem;
-}
 .euro-heading{
 font-family: IBM Plex Sans;
 font-size: 3.75rem;
@@ -60,17 +57,13 @@ line-height: 4.875rem;
 }
 .euro-section{
   padding:1.875rem 0rem 1.875rem 0rem;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
-.mt1,.mt1-5{
+.mt1,.mt1-5,.euro-buttons,.euro-buttons2{
     margin-top: 1.5rem;
 }
 .mt0-9,.card-imgs,.italic{
     margin-top: 0.9rem;
-}
-.euro-buttons,.euro-buttons2{
-    border-radius: 0rem;
-    margin-top: 1.5rem;
 }
 .euro-buttons2,.euro-buttons2:hover{
     color: #272635;
@@ -90,7 +83,7 @@ line-height: 1.625rem;
     color: #A6A6A8;
 }
 .padding100,.backpink,.contact-us{
-    padding: 6.25rem;
+    padding:  6.25rem 0rem;
 }
 .backpink,.services{
     background-color: rgb(241, 241, 241);
@@ -164,20 +157,19 @@ padding:  0.625rem 2.5rem;
 color:#6E6E6E;
 text-align: center;
 background-color: #FFF;
-border-radius: 0rem;
 }
 .gallery-buttons:hover,.score-div{
     background-color: #272635;
     color: white;
 }
 .gallery-img2{
-    width: 20.375rem;
+    width: 21.375rem;
 }
 .gallery-img3{
-    width: 33rem;
+    width: 34rem;
 }
 .gallery-img4{
-    width: 27.031rem;
+    width: 27.931rem;
 }
 .gallery-img2,.gallery-img3,.gallery-img4{
     height: 15.625rem;
@@ -212,6 +204,8 @@ line-height: 2.938rem;
 }
 .feedback-cards{
     padding: 2.5rem;
+}
+.btn,.card{
     border-radius: 0rem;
 }
 .italic{
@@ -225,7 +219,7 @@ line-height: 2.938rem;
     padding: 0rem 0rem;
 }
 .score-div{
-    padding:3.125rem 6.25rem;
+    padding:3.125rem 0rem;
 }
 .plus{
 font-size:.256em;
@@ -262,7 +256,7 @@ line-height: 1.688rem;
     --bs-accordion-border-color: white;
 }
 .footer{
-    padding: 6.25rem 6.25rem 1.875rem 6.25rem;
+    padding: 6.25rem 0rem 1.875rem 0rem;
 }
 .font25{
 font-family: IBM Plex Sans;
@@ -289,31 +283,42 @@ margin-top: 3rem;
     border-bottom: 0rem;
     --bs-nav-tabs-border-radius: /*var(--bs-border-radius)*/ 0rem;
 }
+.nav-tabs .nav-link {
+    border: 0rem solid transparent;
+}
 .nav {  
     --bs-nav-link-hover-color:#6E6E6E;
 }
 .video{
     height: 19rem;
 }
+.navbar-collapse {
+     flex-grow: 0;
+}
+@media (min-width: 62rem){
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+}
 @media screen and (min-width:62rem) and (max-width:75rem) {
     .backimg{
-        padding: 0rem 4.375rem 4.375rem 4.375rem;
+        padding: 0rem 0rem 3.375rem 0rem;
     }
     .padding100,.backpink,.contact-us{
-        padding: 4.375rem;
+        padding:  4.375rem 0rem;
     }
     .footer{
-        padding: 4.375rem 4.375rem 1.875rem 4.375rem ;
+        padding: 4.375rem 0rem 1.875rem 0rem ;
     }
     .score-div{
-        padding:2.188rem 4.375rem ;
+        padding:2.188rem 0rem ;
     }
     .navbar-buttons{
-        padding:  0.438rem 1.25rem 0.438rem 1.25rem;
+        padding:  0.4rem 1.25rem 0.4rem 1.25rem;
      }
-     .euro-section{
-        margin-top: 2rem;
-    }
     .euro-heading{
         font-size: 3.125rem;
         font-weight: 600;
@@ -341,13 +346,13 @@ margin-top: 3rem;
         height: 35.8rem;
     }
     .gallery-img2{
-        width: 13.438rem;
+        width: 14.438rem;
     }
     .gallery-img3{
-        width:25.938rem;
+        width:26.938rem;
     }
     .gallery-img4{
-        width: 19.688rem;
+        width: 20.588rem;
     }
     .gallery-img2,.gallery-img3,.gallery-img4{
         height: 13.75rem;
@@ -380,9 +385,6 @@ margin-top: 3rem;
     }
 }
 @media screen and (min-width:75rem) and (max-width:87.5rem) {
-    #navbarsExample05{
-        margin-left: 5rem;
-    }
     .p-absolute{
         padding: 1.563rem;
     }
@@ -405,13 +407,13 @@ margin-top: 3rem;
         padding:  0.625rem 2.188rem;
     }
     .gallery-img2{
-        width: 16.875rem;
+        width: 17.875rem;
     }
     .gallery-img3{
-        width: 29.375rem;
+        width: 30.375rem;
     }
     .gallery-img4{
-        width: 23.125rem;
+        width: 24.125rem;
     }
     .services{
         padding: 1.7rem;
@@ -430,7 +432,8 @@ margin-top: 3rem;
 }
 @media screen and (min-width:12.5rem) and (max-width:62rem){
     .backimg{
-        padding: 0rem 0.625rem 1.25rem 0.625rem;
+        padding: 0rem 0.625rem 2.25rem 0.625rem;
+        background-size: 100% 150%;
     }
     .navbar-toggler {
         padding:0rem 0rem;
@@ -472,9 +475,6 @@ margin-top: 3rem;
     }
 }
 @media screen and (min-width:48rem) and (max-width:62rem) {
-    .euro-section{
-        margin-top: 2rem;
-    }
     .euro-heading{
         font-size: 2.5rem;
         font-weight: 550;
@@ -511,11 +511,11 @@ margin-top: 3rem;
         padding: 2rem 0.625rem;
     }
     .footer{
-        padding: 2rem 2rem 1.25rem 2rem;
+        padding: 2rem 0.625rem 1rem 0.625rem;
     }
     .right-reserved{
         padding: 1.25rem 0rem 0rem 0rem;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
     .score-div{
         padding: 1rem 0.625rem;
@@ -578,8 +578,13 @@ margin-top: 3rem;
         margin-top: 1.5rem;
     }
     .navbar-buttons{
-        padding:  0.438rem 0.938rem 0.438rem 0.938rem;
+        padding:  0.39rem 0.938rem 0.39rem 0.938rem;
         font-size:0.75rem;
+        line-height: 1.25rem;
+    }
+    .euro-buttons,.euro-buttons2{
+        padding:  0.4rem 1rem 0.4rem 1rem;
+        font-size: 0.8rem;
         line-height: 1.25rem;
     }
 }
@@ -614,8 +619,7 @@ margin-top: 3rem;
         margin-top: 1rem;
     }
     .backimg{
-        background-size: 100% 150%;
-        height: 68vh;
+        height: 65vh;
     }
     .font17,.font-17-gray,.font-17-lightgray{
         font-size: 0.89rem;
@@ -669,10 +673,7 @@ margin-top: 3rem;
         padding: 1rem 0rem 0rem 0rem;
     }
     .score-div{
-        padding: 0.15rem 0.625rem 0.65rem;
-    }
-    .img-center{
-        text-align: center;
+        padding: 0.15rem 0.625rem 0.65rem 0.625rem;
     }
     .certi-img{
         height: 1.875rem;
@@ -786,9 +787,6 @@ margin-top: 3rem;
     }
 }
 @media screen and (min-width:12.5rem) and (max-width:75rem) {
-    #navbarsExample05{
-        margin-left: 0rem;
-    }
     .accordion-item{
         margin-top: 0.6rem;
      }
@@ -806,6 +804,9 @@ margin-top: 3rem;
     }
     .result-boxes{
         padding:0.8rem;
+    }
+    .euro-section{
+        margin-top: 2rem;
     }
 }
 @media screen and (min-width:12.5rem) and (max-width:36rem) {
